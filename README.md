@@ -1,1 +1,9 @@
 # railway-py-linebot
+
+Railwayでオウム返しをしてくれるLINEBotを簡単に作れるテンプレートです。
+Use This Templateから自分のリポジトリにコピーして使ってください。
+
+LINEDevelopersから
+MessagingAPIのチャネルを作成し、
+チャネルアクセストークンとチャネルシークレットをコピーして、RailwayのVariablesに設定してください
+RailwayのアプリとしてURLが発行されたら、LINEDevelopersに戻りWebhookにURLを貼り付け、末尾に「/callback」を設定
