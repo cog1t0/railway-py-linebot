@@ -20,6 +20,9 @@ from constant import CHANNEL_ACCESS_TOKEN, CHANNEL_SECRET
 
 app = Flask(__name__)
 
+configuration = Configuration(access_token='CHANNEL_ACCESS_TOKEN')
+handler = WebhookHandler('CHANNEL_SECRET')
+
 @app.route('/')
 def index():
     return "Hello World!"
